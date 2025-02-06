@@ -1,0 +1,93 @@
+body {
+    background-color: #f8f9fa;
+    color: #0d6efd;
+    padding-top: 70px;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.navbar-nav .nav-link:hover {
+    color: white !important;
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
+.carousel-item {
+    max-height: 600px;
+}
+
+.social-icons a {
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0d6efd !important;
+}
+/* styles.css */
+/* Mejorar paleta de colores */
+:root {
+    --primary-color: #2A5CAA; /* Azul profesional */
+    --secondary-color: #4A4A4A; /* Gris neutro */
+    --accent-color: #F5F5F5; /* Fondo claro */
+}
+
+body {
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+h1, h2, h3 {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+/* Navbar mejorado */
+.navbar {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.navbar-scrolled {
+    background-color: rgba(255,255,255,0.95) !important;
+    padding: 10px 0;
+}
+
+/* Carrusel profesional */
+.carousel-caption {
+    background: rgba(0,0,0,0.6);
+    padding: 2rem;
+    border-radius: 5px;
+    bottom: 25%;
+}
+
+/* Tarjetas de servicios */
+.service-card {
+    transition: transform 0.3s ease;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Formulario mejorado */
+.contact-form {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+}
